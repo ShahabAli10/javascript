@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+</head>
+<body>
+    <h1>Rules for naming JS variable</h1>
+
+    <ul>
+        <li>Variable names can only contain letters, digits, underscores, and dollar signs. For example: <code>$my_1stVariable</code></li>
+        <li>Variables must begin with a letter, underscore, or dollar sign. For example: <code>$name</code>, <code>_name</code>, or <code>name</code></li>
+        <li>Variable names are case sensitive.</li>
+        <li>Variable names should not be JS reserved keywords.</li>
+    </ul>
+
+    <h2>Example of declaring 3 variables in one statement</h2>
+    <p>Here is how to declare three variables in one statement:</p>
+    <pre><code>let var1 = 1, var2 = 2, var3 = 3;</code></pre>
+
+    <h2>Legal and Illegal Variable Names</h2>
+    <h3>5 Legal Variable Names:</h3>
+    <ul>
+        <li>myVariable</li>
+        <li>_myVariable</li>
+        <li>$myVariable</li>
+        <li>var123</li>
+        <li>first_Name</li>
+    </ul>
+
+    <h3>5 Illegal Variable Names:</h3>
+    <ul>
+        <li>123var (Cannot start with a number)</li>
+        <li>my-variable (Hyphens are not allowed)</li>
+        <li>var!name (Special characters like "!" are not allowed)</li>
+        <li>if (Cannot use JS reserved keywords)</li>
+        <li>my variable (Spaces are not allowed)</li>
+    </ul>
+    <script src="./main.js"></script>
+</body>
+</html>
