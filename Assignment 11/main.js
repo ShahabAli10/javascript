@@ -1,11 +1,3 @@
-// var valid = setInterval (function() {
-// var currentdate = new Date();
-// var hour = currentdate.getHours();
-// var min = currentdate.getMinutes();
-// var sec = currentdate.getSeconds();
-// document.body.innerHTML = hour + " : " + min + " : " +  sec + " sec ";
-// }, 1000);
-
 var num = prompt("Enter the item1 price");
 var num1 = prompt("Enter the item2 price");
 var num2 = prompt("Enter the item3 price");
