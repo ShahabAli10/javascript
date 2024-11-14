@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        #container{
+            position: absolute;
+            display: flex;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: black;
+            font-weight: bold;
+            font-size: 50px;            
+        }
+        #hour{
+            background: linear-gradient(45deg, #ff6767, #30197d);
+            width: 150px;
+            height: 100px;
+            border-radius: 30px;
+        }
+        #min{
+            background: linear-gradient(0deg, #0a0a0a, #080);
+            width: 150px;
+            height: 100px;
+            border-radius: 30px;
+        }
+        #sec{
+            background: linear-gradient(50deg, #30197d, #fff);
+            width: 150px;
+            height: 100px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <span id="generate"></span> <br>
+    <button onclick="generate()">Generate Password</button> <br>
+    <label><input type="checkbox" id="small" /> Small Letters</label> 
+    <label><input type="checkbox" id="large" /> Capital Letters</label> <br> 
+    <label><input type="checkbox" id="number" /> Numbers</label>
+    <label><input type="checkbox" id="symbol" /> Symbols</label>
+
+    <div id="container"> 
+    <div id="hour"></div>
+    <div id="min"></div>
+    <div id="sec"></div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
